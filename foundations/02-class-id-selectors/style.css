@@ -1,0 +1,23 @@
+/* Selects all odd-numbered elements */
+.odd {
+    background-color: pink;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+/* selcet the second element */
+:nth-child(2) {
+    color: blue; 
+    padding: 36px;
+}
+
+/* Selects the third element */
+:nth-child(3) {
+    padding: 24px;
+}
+
+/* Selects the fourth element */
+:nth-child(4) {
+    background-color: lightgreen;
+    padding: 12px;
+    font-weight: bold;
+}
